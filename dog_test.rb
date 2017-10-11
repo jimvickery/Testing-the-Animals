@@ -27,7 +27,6 @@ class DogTest < Minitest::Test
         assert_equal @dog.legs, 2
     end
 
-
     
     def test_walk_when_legs_is_zero
         assert_raises TypeError do
